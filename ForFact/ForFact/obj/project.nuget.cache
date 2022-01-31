@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3qf4WK/AuUrAS4W0OOM3W0squ+7u8p33okLu6UTilUk4xI+0NersNypZHNbxtJq0zzA53Gj7P4JX7w4m8G2Ozw==",
+  "dgSpecHash": "tBu5EH4JdvC7Tty0EmG1DxavYLRJ9+k3NBoDuKXqki/8oBgKVwNODp/K2g7W84bpVE5J5Fba/7p5YcmonGLqyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vladn\\OneDrive\\Документы\\GitHub\\TestProject\\ForFact\\ForFact\\ForFact.csproj",
+  "projectFilePath": "C:\\Users\\vladn\\source\\repos\\ForFact\\ForFact\\ForFact.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladn\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\vladn\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

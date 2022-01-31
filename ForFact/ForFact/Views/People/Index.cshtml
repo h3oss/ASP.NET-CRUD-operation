@@ -46,8 +46,9 @@
 
                 <a asp-controller="People" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-info btn-sm">Обновить</a>
                 <form asp-controller="People" asp-action="Delete" asp-route-id="@item.Id">
-                    <button type="submit" class="btn btn-outline-danger btn-sm">Удалить</button>                                                              
-                 </form>
+                    <button type="submit" class="btn btn-outline-danger btn-sm">Удалить</button>
+                </form>
+                <a asp-controller="People" asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm">Подробнее</a>
             </td>
         </tr>
 }

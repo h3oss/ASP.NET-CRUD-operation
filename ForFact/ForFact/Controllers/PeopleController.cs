@@ -134,5 +134,59 @@ namespace ForFact.Controllers
                 throw;
             }
         }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            IDbConnection con;
+
+            try
+            {
+                string detailsQuery = "SELECT * FROM people WHERE Id = @id";
+                con = new NpgsqlConnection(ConnectionString);
+                con.Open();
+                People people = con.Query<People>(detailsQuery, new { id = id }).FirstOrDefault();
+                con.Close();
+
+                return View(people);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+
+
+        [HttpPost]
+        public IActionResult Details(int id, People people)
+        {
+            if (id != people.Id)
+                return NotFound();
+
+
+            if (ModelState.IsValid)
+            {
+                IDbConnection con;
+
+                try
+                {
+                    con = new NpgsqlConnection(ConnectionString);
+                    string detailsQuery = "SELECT * FROM people WHERE Id = @id";
+                    con.Open();
+                    con.Execute(detailsQuery, people);
+                    con.Close();
+                    return RedirectToAction(nameof(Index));
+
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+            return View(people);
+        }
+
     }
 }

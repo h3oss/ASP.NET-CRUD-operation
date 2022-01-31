@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladn\\OneDrive\\Документы\\GitHub\\TestProject\\ForFact\\ForFact\\ForFact.csproj": {}
+    "C:\\Users\\vladn\\source\\repos\\ForFact\\ForFact\\ForFact.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladn\\OneDrive\\Документы\\GitHub\\TestProject\\ForFact\\ForFact\\ForFact.csproj": {
+    "C:\\Users\\vladn\\source\\repos\\ForFact\\ForFact\\ForFact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladn\\OneDrive\\Документы\\GitHub\\TestProject\\ForFact\\ForFact\\ForFact.csproj",
+        "projectUniqueName": "C:\\Users\\vladn\\source\\repos\\ForFact\\ForFact\\ForFact.csproj",
         "projectName": "ForFact",
-        "projectPath": "C:\\Users\\vladn\\OneDrive\\Документы\\GitHub\\TestProject\\ForFact\\ForFact\\ForFact.csproj",
+        "projectPath": "C:\\Users\\vladn\\source\\repos\\ForFact\\ForFact\\ForFact.csproj",
         "packagesPath": "C:\\Users\\vladn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladn\\OneDrive\\Документы\\GitHub\\TestProject\\ForFact\\ForFact\\obj\\",
+        "outputPath": "C:\\Users\\vladn\\source\\repos\\ForFact\\ForFact\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
